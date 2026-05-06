@@ -1,0 +1,87 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f8f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #2e7d32;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2e7d32;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: #2e7d32;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        button:hover {
+            background: #1b5e20;
+        }
+
+        .btn-remover {
+            background: #c62828;
+        }
+
+        .btn-remover:hover {
+            background: #8e0000;
+        }
+
+        .btn-editar {
+            background: #ef6c00;
+        }
+
+        .btn-editar:hover {
+            background: #bf360c;
+        }
+
+        .pet {
+            border-left: 6px solid #2e7d32;
+            background: #fafafa;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 8px;
+        }
+
+        .adotado {
+            border-left-color: #757575;
+            opacity: 0.75;
+        }
+
+        .mensagem {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+  
